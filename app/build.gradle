@@ -7,6 +7,10 @@ android {
     compileSdkVersion 33
     buildToolsVersion "33.0.1"
 
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.thoy.mbti.personal16"
         minSdkVersion 19
